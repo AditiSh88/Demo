@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 10px;
+}
+
+}
+</style>
+</head>
+<body>
+
+<h2>HTML Formatting Tags</h2>
+
+<table>
+  <tr>
+    <th>HTML Tag</th>
+    <th>Output</th>
+    
+  </tr>
+  <tr>
+    <td>Normal Text</td>
+    <td>normal text</td>
+    
+  </tr>
+  <tr>
+    <td>Font and its Attributes</td>
+    <td><font face="Times New Roman">Font <font size="10">Size <font size = "4" color="red">Color </td>
+    
+  </tr>
+  <tr>
+    <td>&lt;B&gt;</td>
+    <td><b>Bold</b></td>
+    
+  </tr>
+  <tr>
+    <td>&lt;I&gt;</td>
+    <td><i>Italic</i></td>
+    
+  </tr>
+  <tr>
+    <td>&lt;U&gt;</td>
+    <td><u>Underline</u></td>
+    
+  </tr>
+  <tr>
+    <td>&lt;EM&gt;</td>
+    <td><em>Emphasis</em></td>
+    
+  </tr>
+
+  <tr>
+    <td>&lt;STRONG&gt;</td>
+    <td><strong>Strong</strong></td>
+    
+  </tr>
+
+  <tr>
+    <td>&lt;TELETYPE&gt;</td>
+    <td><teletype>Teletype</teletype></td>
+    
+  </tr>
+
+  <tr>
+    <td>&lt;CITE&gt;</td>
+    <td><cite>Citation</cite></td>
+    
+  </tr>
+
+  <tr>
+    <td>&lt;STRIKE&gt;</td>
+    <td><strike>Strike</strike></td>
+    
+  </tr>
+
+  <tr>
+    <td>&lt;BIG&gt;</td>
+    <td><big>BIG</big></td>
+    
+  </tr>
+
+  <tr>
+    <td>&lt;SMALL&gt;</td>
+    <td><small>Small</small></td>
+    
+  </tr>
+
+  <tr>
+    <td>&lt;SUB&gt;</td>
+    <td>a<sub>b</sub></td>
+    
+  </tr>
+
+  <tr>
+    <td>&lt;SUP&gt;</td>
+    <td>a<sup>b</sup></td>
+    
+  </tr>
+</table>
+
+</body>
+</html>
