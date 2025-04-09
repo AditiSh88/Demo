@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Assignment</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>JavaScript Concepts Implementation</h1>
+    
+    <!-- BMI Calculator -->
+    <section>
+        <h2>BMI Calculator</h2>
+        <input type="number" id="weight" placeholder="Enter weight (kg)">
+        <input type="number" id="height" placeholder="Enter height (m)">
+        <button onclick="calculateBMI()">Calculate BMI</button>
+        <p id="bmiResult"></p>
+    </section>
+    
+    <!-- Pop-up Boxes -->
+    <section>
+        <h2>Pop-up Boxes</h2>
+        <button onclick="showAlert()">Show Alert</button>
+        <button onclick="showConfirm()">Show Confirm</button>
+        <button onclick="showPrompt()">Show Prompt</button>
+    </section>
+    
+    <!-- Event Handling & DOM Manipulation -->
+    <section>
+        <h2>Event Handling & DOM Manipulation</h2>
+        <button id="changeTextButton">Click to Change Text</button>
+        <p id="textToChange">Original Text</p>
+    </section>
+    
+    <!-- Form Validation -->
+    <section>
+        <h2>Form Validation</h2>
+        <form id="registerForm">
+            <input type="text" id="name" placeholder="Enter Name" required>
+            <input type="email" id="email" placeholder="Enter Email" required>
+            <input type="password" id="password" placeholder="Enter Password" required>
+            <button type="submit">Register</button>
+        </form>
+        <p id="validationMessage"></p>
+    </section>
+    
+    <!-- AJAX Request -->
+    <section>
+        <h2>Fetch Weather Data</h2>
+        <button id="fetchWeatherButton">Get Weather</button>
+        <p id="weatherData"></p>
+    </section>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
