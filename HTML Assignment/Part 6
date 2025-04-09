@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+  <p>Cilck on the image to redirect to www.google.com</p>
+  <a href="www.google.com">
+     <img src="img_chania.jpg" alt="Click to visit www.google.com" width="460" height="345">
+  </a>
+
+</body>
+
+</html>
