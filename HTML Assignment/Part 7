@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+ <body>
+   <center>
+     <font size="+3" color=black>employee registration from</font>
+     <from method=post action="prac.html"></table></from>
+   </center>
+   <tr>
+     <td></td>
+     <td><input type=radio name=initial checked>Mr.
+     <input type=radio name=initial checked>Mrs.
+     <input type=radio name=initial checked>Ms.</td><br><br>
+   </tr>
+   <tr>
+     <td></td>
+     <td>First Name</td>
+     <td><input type=text name=in  placeholder="first name"</td><br>
+   </tr>
+   <tr>
+     <td>Last Name</td>
+     <td><input type=text name=in  placeholder="last name"</td><br>
+   </tr>
+   <tr>
+     <td>Mail Address1</td>
+     <td><input type=text name=add1</td><br>
+   </tr>
+   <tr>
+     <td>Mail Address2</td>
+     <td><input type=text name=add2</td><br>
+   </tr>
+   <tr>
+     <td>state</td>
+     <td><select name=state>
+       <option value="gujarat">Gujarat</option>
+       <option value="maharastra">Maharastra</option>
+       <option value="karnataka">Karnataka</option>
+       <option value="delhi">Delhi</option></td><br>
+   </tr>
+   <tr>
+     <td>Zip</td>
+     <td><input type=text name=zip></td><br>
+   </tr>
+   <tr>
+     <td>Upload Photo</upload></td>
+     <td><input type=file name=photo</td><br>
+   </tr>
+   <tr>
+     <td>Mobile</td>
+     <td><input type=text name=mob placeholder="+91"</td><br>
+   </tr>
+   <tr>
+     <td>e-mail</td>
+     <td><input type=text name=email size=30</td><br>
+   </tr>
+   <tr>
+     <td>Languages Known</td>
+     <td><input type="checkbox" name="1k" value =gujarati checked>Gujarati</td><br>
+   </tr>
+   <tr>
+     <td></td>
+       <td><input type="checkbox" name="1k" value =english checked>English</td><br>
+   </tr>
+   <tr>
+     <td></td>
+       <td><input type="checkbox" name="1k" value =hindi checked>Hindi</td><br>
+   </tr>
+   <tr>
+     <td></td>
+       <td><input type="checkbox" name="1k" value =marathi checked>Marathi</td><br>
+   </tr>
+   <tr>
+     <td>Additional Information</td><br>
+     <td><textarea name=add rows=3 cols=20 placeholder="optional" wrap></textarea></td>
+   </tr>
+   <tr>
+     <td></td>
+     <td><input type=submit value=submit>&nbsp;<input type=reset value="reset"</td>
+   </tr>
+   
+ </body>
+  
+</html>
